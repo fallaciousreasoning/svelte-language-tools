@@ -79,6 +79,10 @@ export interface EmitDtsConfig {
      */
     svelteShimsPath: string;
     /**
+     * Additional paths of ambient type definitions.
+     */
+    additionalPaths?: string[];
+    /**
      * If you want to emit types only for part of your project,
      * then set this to the folder for which the types should be emitted.
      * Most of the time you don't need this. For SvelteKit, this is for example
