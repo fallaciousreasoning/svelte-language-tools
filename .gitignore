@@ -68,3 +68,5 @@ dist
 
 # VSCode history extension
 .history
+
+package-lock.json
